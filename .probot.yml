@@ -1,8 +1,7 @@
-behavior:
+behaviors:
   # Post welcome message for new contributors
   - on:
-      - issue.created
-      - pull_request.created
+      - issues.opened
     then:
       comment:
-        from_file: .github/NEW_CONTRIBUTOR_TEMPLATE.md
+        "It's Alive!"
