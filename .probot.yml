@@ -1,4 +1,4 @@
-behaviors:
+behavior:
   # Post welcome message for new contributors
   - on:
       - issue.created
